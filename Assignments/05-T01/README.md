@@ -382,6 +382,7 @@ public:
      Node* travel = other.head;
      while(travel){
          Push(travel->data);
+         travel=travel->next;
      }
   }
   // ...
