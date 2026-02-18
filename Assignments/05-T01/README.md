@@ -153,6 +153,7 @@ public:
     // again we only provided 2 constructors the default and then one for all values
     Point3D();
     Point3D(double , double , double ,string);
+    Point3D(double , double , double);
 
     // Getters and Setters
     // These methods are always necessary unless explicit instructions say to forget them.
