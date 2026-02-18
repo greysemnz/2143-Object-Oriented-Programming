@@ -15,9 +15,9 @@ It lets subclasses access a member, but keeps outsiders locked out.
 
 | Access Specifier | Accessible in Same Class | Accessible in Derived Class | Accessible Outside Class |
 | ---------------- | ------------------------ | --------------------------- | ------------------------ |
-| `private`        | ✅                       | ❌                          | ❌                       |
-| `protected`      | ✅                       | ✅                          | ❌                       |
-| `public`         | ✅                       | ✅                          | ✅                       |
+| `private`        | ✅                        | ❌                           | ❌                        |
+| `protected`      | ✅                        | ✅                           | ❌                        |
+| `public`         | ✅                        | ✅                           | ✅                        |
 
 ---
 
@@ -55,9 +55,9 @@ Base protected method called.
 
 | Who Can Access? | Private | Protected | Public |
 | --------------- | ------- | --------- | ------ |
-| Base Class      | ✅      | ✅        | ✅     |
-| Derived Class   | ❌      | ✅        | ✅     |
-| External Code   | ❌      | ❌        | ✅     |
+| Base Class      | ✅       | ✅         | ✅      |
+| Derived Class   | ❌       | ✅         | ✅      |
+| External Code   | ❌       | ❌         | ✅      |
 
 - `protected` → “Visible to family only.”
 
@@ -181,9 +181,9 @@ class PrivateGrandchild : public PrivateDerived {
 
 | Inheritance Chain             | Base::public | Base::protected | Base::private | Visibility Notes              |
 | ----------------------------- | ------------ | --------------- | ------------- | ----------------------------- |
-| Base → Public → Grandchild    | ✅public     | ✅protected     | ❌            | fully accessible              |
-| Base → Protected → Grandchild | ✅protected  | ✅protected     | ❌            | visible only within hierarchy |
-| Base → Private → Grandchild   | ❌           | ❌              | ❌            | completely hidden             |
+| Base → Public → Grandchild    | ✅public      | ✅protected      | ❌             | fully accessible              |
+| Base → Protected → Grandchild | ✅protected   | ✅protected      | ❌             | visible only within hierarchy |
+| Base → Private → Grandchild   | ❌            | ❌               | ❌             | completely hidden             |
 
 ---
 
@@ -428,9 +428,9 @@ Because `takeDamage()` is `protected`, both `MeleeFighter` and `Warrior` can use
 
 | Access Specifier | Visible to Base | Visible to Derived | Visible to Outside |
 | ---------------- | --------------- | ------------------ | ------------------ |
-| `private`        | ✅              | ❌                 | ❌                 |
-| `protected`      | ✅              | ✅                 | ❌                 |
-| `public`         | ✅              | ✅                 | ✅                 |
+| `private`        | ✅               | ❌                  | ❌                  |
+| `protected`      | ✅               | ✅                  | ❌                  |
+| `public`         | ✅               | ✅                  | ✅                  |
 
 ---
 
