@@ -2,7 +2,7 @@
 title: OOP Wiki
 id: 03-H01
 name: 03-H01
-descriptione: OOP Wiki Assignment (Spiced Up + Better Requirements)
+description: OOP Wiki Assignment (Spiced Up + Better Requirements)
 course: OOP
 category: Homework
 date_assigned: 2026-01-20 11:00
@@ -14,9 +14,7 @@ grading_emphasis:
   - examples_and_code_quality
   - visuals_and_diagrams
   - professional_presentation
-  
 ```
-
 
 ## OOP Wiki Assignment: Build Your Personal OOP Knowledge Base
 

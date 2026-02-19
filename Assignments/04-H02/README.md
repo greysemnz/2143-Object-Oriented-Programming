@@ -1,12 +1,12 @@
 ```yaml
 id: 04-H02
 name: 04-H02
-description: ''
+title: 'Forced Study Guide'
+description: 'Work to help you study for first exam'
 category: Homework
 date_assigned: 2026-02-09 11:00
-date_due: 2026-02-16 11:00
+date_due: 2026-02-23 11:00
 resources: []
-coverage: ''
 ```
 
 # 🧠 OOP Worksheet & Study Guide  

@@ -7,9 +7,10 @@ id: 05-T01
 name: 05-T01
 category: exam
 date_assigned: 2026-02-09 12:00
-date_due: 2026-02-20 11:00
+date_due: 2026-02-23 11:00
 resources: []
 ```
+
 ## Study Guide
 
 ### Links
