@@ -57,9 +57,9 @@ Answer **clearly and concisely**.
    - cache friendliness  
    (Yes, cache friendliness matters. No, you may not ignore it.)
 
-2. Why is `std::vector` a natural fit for a **stack**, but awkward for a **queue**?
+1. Why is `std::vector` a natural fit for a **stack**, but awkward for a **queue**?
 
-3. Define the **invariant** for:
+1. Define the **invariant** for:
    - a stack  
    - a queue  
 
