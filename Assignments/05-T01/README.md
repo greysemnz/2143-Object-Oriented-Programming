@@ -11,7 +11,7 @@ date_due: 2026-02-23 11:00
 resources: []
 ```
 
-## [Solution](./2143_Exam_1_sp_26.pdf)
+## [Solution](./2143_Exam_1_sp_26_sol.pdf)
 
 
 ## Study Guide
