@@ -11,7 +11,7 @@ resources: []
 
 # Program 1 Starter Code (compiles as-is)
 
-> File: `program1.cpp`
+> File: [`source1.cpp`](./source1.cpp)
 
 ```cpp
 #define STB_IMAGE_IMPLEMENTATION
@@ -124,6 +124,7 @@ Add below includes:
 using namespace termcolor;
 ```
 
+
 ### 3) Replace messages with colored versions
 Examples:
 
@@ -132,6 +133,15 @@ Examples:
 std::cout << red << "Usage: " << blue
           << "./imgtool <input_image> <output_image>\n"
           << reset;
+```
+
+If you don't add `using namespace termcolor` below your includes, your code will look like: 
+
+**Usage message**
+```cpp
+std::cout << termcolor::red << "Usage: " << termcolor::blue
+          << "./imgtool <input_image> <output_image>\n"
+          << termcolor::reset;
 ```
 
 **Load fail**
@@ -192,19 +202,17 @@ if (!open_file_default_app(outputPath)) {
 # Build / Run
 
 ```bash
-g++ -std=c++17 -O2 -Wall -Wextra -pedantic program1.cpp -o imgtool
+# Compile your code
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic source1.cpp -o imgtool
 ./imgtool input.png output.png
 ```
 
+For a breakdown of the compile command, look [HERE](./compile_cmd.md)
+
 ---
 
-# Notes you can tell students (quick)
-- If you’re on a server with no GUI, the viewer won’t open. That’s normal.
+## Notes
+- If you’re on a server with no GUI (like Codespaces), the viewer won’t open. That’s normal.
 - This is Program 1: hardcoded grayscale only.
 - Program 2: you’ll add your `Args::parse()` and select the filter + `--view`.
 
----
-
-If you want, I can also provide:
-- a **“completed Program 1”** version (for you / solution key),
-- and a **tiny checklist** students can use to verify they added termcolor + open correctly (without you answering 47 emails).
