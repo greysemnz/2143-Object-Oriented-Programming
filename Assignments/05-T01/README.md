@@ -1,7 +1,7 @@
 ```yaml
 title: Test 1
 description: C++ Review and OOP basics
-due: 29 Sep 2025
+due: 29 Sep 2026
 slug: Exam_01
 id: 05-T01
 name: 05-T01
