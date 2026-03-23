@@ -226,7 +226,7 @@ Args::parse(argc, argv);
 
 ---
 
-# 🔥 The Rule
+# 🔥 The Rulef
 
 > **If creating an object requires interpreting messy input → use a factory.**
 
