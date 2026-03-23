@@ -227,7 +227,7 @@ You must provide **one** of these interfaces:
 
 <!-- ```cpp -->
 
-~~static Args parse(int argc, char\* argv[]);~~
+static Args parse(int argc, char\* argv[]);
 
 <!-- ``` -->
 
