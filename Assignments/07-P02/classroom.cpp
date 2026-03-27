@@ -19,11 +19,11 @@ class Args {
         // args.parse_impl (argc, argv);
         // args.validate ();
 
-        //read through argv and find if any of the arguments match items in the assignment.
+        // read through argv and find if any of the arguments match items in the assignment.
         return args;
     }
 
-    static Args fromFile(string filename){
+    static Args fromFile (string filename) {
         // open the file
         // assign the arguments from the file
     }
@@ -44,7 +44,7 @@ class Args {
 int main (int argc, char** argv) {
     Args arg1 = Args::parse (argc, argv);
 
-    Args arg2 = Args::fromFile(infile);
+    Args arg2 = Args::fromFile (infile);
 
 
     return 0;
